@@ -1,0 +1,122 @@
+{
+  "user": [
+    {
+      "id": "hamza",
+      "name": "hamza musema",
+      "password": "12345",
+      "repassword": "12345",
+      "email": "hamzamusema26@gmail.com",
+      "gender": "male",
+      "role": "admin",
+      "isactive": true,
+      "comment": ""
+    },
+    {
+      "id": "admin",
+      "name": "admin",
+      "password": "12345",
+      "email": "admin@gmail.com",
+      "gender": "male",
+      "role": "admin",
+      "isactive": true
+    },
+    {
+      "id": "hamzu",
+      "name": "hamzu",
+      "password": "asdfghjkl",
+      "email": "hamzu@gmail.com",
+      "gender": "male",
+      "role": "user",
+      "isactive": true
+    },
+    {
+      "id": "abdu12",
+      "name": "abdu",
+      "password": "12345",
+      "repassword": "12345",
+      "email": "abdu@gmil.com",
+      "gender": "male",
+      "role": "",
+      "isactive": true,
+      "comment": ""
+    },
+    {
+      "id": "musas",
+      "name": "musas",
+      "password": "1234",
+      "repassword": "1234",
+      "email": "musas@gmail.com",
+      "gender": "male",
+      "role": "",
+      "isactive": true,
+      "comment": ""
+    },
+    {
+      "id": "hamzan",
+      "name": "hamzan",
+      "password": "1234",
+      "repassword": "1234",
+      "email": "ham@gmail.com",
+      "gender": "male",
+      "role": "",
+      "isactive": false,
+      "comment": ""
+    }
+  ],
+  "ticket": [
+    {
+      "name": "hamza",
+      "subject": "non",
+      "select": "Minor issue",
+      "brief": "xcxc",
+      "file": "C:\\fakepath\\import { NgModule } from '@angularc.txt",
+      "comment": "",
+      "id": 1
+    },
+    {
+      "name": "hamza",
+      "subject": "non",
+      "select": "Minor issue",
+      "brief": "xcxc",
+      "file": "C:\\fakepath\\import { NgModule } from '@angularc.txt",
+      "comment": "",
+      "id": 2
+    },
+    {
+      "name": "hamzu",
+      "subject": "tobe",
+      "select": "Major issue",
+      "brief": "sdkjkfd",
+      "file": "C:\\fakepath\\raiseticket.component.spec.ts",
+      "comment": "",
+      "id": 3
+    },
+    {
+      "name": "abdu12",
+      "subject": "create",
+      "select": "General Enquiry",
+      "brief": "sdldfmv",
+      "file": "C:\\fakepath\\auth.service.ts",
+      "comment": "",
+      "id": 4
+    },
+    {
+      "name": "musas",
+      "subject": "jason file",
+      "select": "Major issue",
+      "brief": "dfdgkdgkfknjzjdfcjv dgklnfgfd",
+      "file": "C:\\fakepath\\register.component.ts",
+      "comment": "",
+      "id": 5
+    },
+    {
+      "name": "hamza",
+      "subject": "try",
+      "select": "Minor issue",
+      "brief": "fmldg",
+      "file": "C:\\fakepath\\register.component.html",
+      "comment": "open",
+      "id": 7
+    }
+  ]
+}

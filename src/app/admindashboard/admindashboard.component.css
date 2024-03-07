@@ -1,0 +1,87 @@
+table {
+    width: 100%;
+  }
+  
+  .mat-mdc-form-field {
+    font-size: 14px;
+    width: 100%;
+  }
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}  
+.viewticket{
+  top: 150px;
+  margin-left: 1200px;
+}
+.ticket{
+  margin-top: 110px;
+  width: 550px;
+}
+.open{
+  margin-top: -125px;
+  margin-left: 370px;
+  width: 550px;  
+}
+.close{
+  margin-top: -130px;
+  margin-left: 700px;
+  width: 550px;
+  
+  
+}
+.toolbar{
+  display: flex;
+  margin-left: 40px;
+  margin-top: 40px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 30px;
+  box-shadow:0 5px 15px 0 rgba(0,0,0, .25) ;
+  width: 95%;
+  height: 80%;
+  border-radius: 13px; 
+  display: grid;
+  grid-template-columns: repeat(6, auto);
+  grid-gap: 10px;
+  list-style: none;
+  align-items: center; 
+}
+.hover:hover{
+  background-color: #fff;
+  color: #fff;
+  border-radius: 4px;
+  transition: all 0.2s ease-in-out;
+}
+
+.add{color: #222;
+  font-size: 2rem;
+  cursor: pointer;
+}
+.shop{color: #222;
+  font-size: 2rem;
+  cursor: pointer;}
+.home{
+  color: #222;
+  font-size: 2rem;
+  cursor: pointer;
+}
+@media screen and (max-width: 850px){
+  .ticket{
+    margin-top: 110px;
+    width: 50px;
+  }
+  .open{
+    
+    margin-left: 250px;
+    width: 50px;  
+  }
+  .close{
+  
+    margin-left: 500px;
+    width:50px;
+    
+    
+  }
+
+}

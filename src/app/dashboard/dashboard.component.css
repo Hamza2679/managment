@@ -1,0 +1,129 @@
+.toolbar{
+  display: flex;
+  margin-left: 40px;
+  margin-top: 40px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 30px;
+  box-shadow:0 5px 15px 0 rgba(0,0,0, .25) ;
+  width: 95%;
+  height: 80%;
+  border-radius: 13px; 
+  display: grid;
+  grid-template-columns: repeat(6, auto);
+  grid-gap: 10px;
+  list-style: none;
+  align-items: center; 
+}
+.hover:hover{
+  background-color: #fff;
+  color: #fff;
+  border-radius: 4px;
+  transition: all 0.2s ease-in-out;
+}
+
+.add{color: #222;
+  font-size: 2rem;
+  cursor: pointer;
+}
+.shop{color: #222;
+  font-size: 2rem;
+  cursor: pointer;}
+.home{
+  color: #222;
+  font-size: 2rem;
+  cursor: pointer;
+}
+.raiseticket{
+    top:100px;
+    margin-right:500px;
+}
+table {
+    width: 100%;
+  }
+  
+  .mat-mdc-form-field {
+    font-size: 14px;
+    width: 100%;
+  }
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    top: -100px;
+}  
+.viewticket{
+  top: 150px;
+  margin-left: 1200px;
+}
+.ticket{
+  margin-top: 70px;
+  width: 550px;
+}
+.open{
+  margin-top: -125px;
+  margin-left: 370px;
+  width: 550px;  
+}
+.close{
+  margin-top: -130px;
+  margin-left: 700px;
+  width: 550px;
+  
+  
+}
+.username{
+  margin-top: 180px;
+}
+@media screen and (max-width: 850px){
+  .toolbar{
+    margin-left: 10px;
+    margin-right: 40px;
+  }
+  .username{
+    margin-top: 200px;
+  }
+  .raiseticket{
+    top:50px;
+    margin-right:250px;
+}
+table {
+    width: 50%;
+  }
+  
+  .mat-mdc-form-field {
+    font-size: 7px;
+    width: 50%;
+  }
+.container{
+    max-width: 700px;
+    margin: 0 auto;
+    top: -50px;
+}  
+.viewticket{
+  top: 75px;
+  margin-left: 600px;
+}
+.ticket{
+  margin-top: 25px;
+  width: 50px;
+}
+.open{
+  
+  margin-left: 250px;
+  width: 50px;  
+}
+.close{
+
+  margin-left: 500px;
+  width:50px;
+  
+  
+}
+.username{
+  margin-top: 90px;
+}
+.card-header{
+  text-size-adjust: 2rem;
+  width: 50px;  
+}
+}

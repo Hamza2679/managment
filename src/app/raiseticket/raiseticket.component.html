@@ -1,0 +1,49 @@
+<mat-card>
+    <mat-card-header>
+        <h2>Create New Task</h2>
+    </mat-card-header>
+    <mat-card-content>
+        <form class="example-form" [formGroup]="ticketform" (ngSubmit)="raiseticket()">
+          <mat-form-field class="example-full-width" appearance="outline">
+            <mat-label>Name</mat-label>
+            <input matInput formControlName="name" >
+          </mat-form-field>
+            <mat-form-field class="example-full-width" appearance="outline">
+                <mat-label>Title</mat-label>
+                <input matInput formControlName="subject" >
+              </mat-form-field>
+          <mat-form-field appearance="outline">
+            <mat-label>Type ?</mat-label>
+            <mat-select formControlName="select">
+              <mat-option value="General Enquiry">General </mat-option>
+              <mat-option value="Minor issue">Minor Task</mat-option>
+              <mat-option value="Major issue">Major Task</mat-option>
+            </mat-select>
+          </mat-form-field>
+            
+              <mat-form-field class="example-full-width" appearance="outline">
+                <mat-label>Detail about Task</mat-label>
+                <input matInput type="text" formControlName="brief" style="height: 100px;">
+              </mat-form-field>
+
+              <!-- <mat-form-field appearance="fill">
+                <mat-label>Created On</mat-label>
+                <input matInput [matDatepicker]="dp" formControlName="date">
+                <mat-hint>MMMM DD, YYYY</mat-hint>
+                <mat-datepicker-toggle matIconSuffix [for]="dp"></mat-datepicker-toggle>
+                <mat-datepicker #dp></mat-datepicker>
+              </mat-form-field> -->
+
+              <div>
+                Attachments:<input type="file" formControlName="file" placeholder="Choose file" style="margin-bottom: 50px;">
+            </div>
+              
+            
+              <div>
+                <button type="submit" mat-raised-button style="background-color: rgb(16, 135, 16); color: white; width: 200px; height: 50px;"><mat-icon>save</mat-icon>Submit task</button>&nbsp;&nbsp;
+                <button mat-raised-button color="warn" mat-dialog-close>Close</button>
+                <!-- <a routerLink="/register" mat-raised-button color="accent">New User?</a> -->
+              </div>
+          </form>
+    </mat-card-content>
+  </mat-card>

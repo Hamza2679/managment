@@ -1,0 +1,113 @@
+{
+  "ticket": [
+    {
+      "name": "abdu12",
+      "subject": "cart",
+      "select": "Minor issue",
+      "brief": "sdfmdbf",
+      "file": "C:\\fakepath\\import { NgModule } from '@angularc.txt",
+      "comment": "open",
+      "id": 2
+    },
+    {
+      "name": "abdu12",
+      "subject": "tobe",
+      "select": "Minor issue",
+      "brief": "kjxnvkgl",
+      "file": "C:\\fakepath\\import { NgModule } from '@angularc.txt",
+      "comment": "open",
+      "id": 3
+    },
+    {
+      "name": "hamza",
+      "subject": "nonn",
+      "select": "General Enquiry",
+      "brief": "addd",
+      "file": "C:\\fakepath\\import { NgModule } from '@angularc.txt",
+      "comment": "open",
+      "id": 4
+    },
+    {
+      "name": "admin",
+      "subject": "for ------",
+      "select": "Major issue",
+      "brief": "dskfk",
+      "file": "C:\\fakepath\\import { NgModule } from '@angularc.txt",
+      "comment": "open",
+      "id": 5
+    },
+    {
+      "name": "admin",
+      "subject": "duudsds",
+      "select": "General Enquiry",
+      "brief": "dfsdj,s",
+      "file": "C:\\fakepath\\.gitignore",
+      "comment": "open",
+      "id": 6
+    },
+    {
+      "name": "hamzish",
+      "subject": "done",
+      "select": "Minor issue",
+      "brief": "hdfjhd",
+      "file": "C:\\fakepath\\.gitignore",
+      "comment": "open",
+      "id": 7
+    },
+    {
+      "name": "hamzish",
+      "subject": "done",
+      "select": "Minor issue",
+      "brief": "hdfjhd",
+      "file": "C:\\fakepath\\.gitignore",
+      "comment": "open",
+      "id": 8
+    }
+  ],
+  "user": [
+    {
+      "id": "hamza",
+      "name": "hamza",
+      "password": "12345",
+      "repassword": "12345",
+      "email": "hamza@gmail.com",
+      "gender": "male",
+      "role": "admin",
+      "isactive": true,
+      "comment": ""
+    },
+    {
+      "id": "hamzish",
+      "name": "hamzish",
+      "password": "1234",
+      "repassword": "1234",
+      "email": "ham@gmail.com",
+      "gender": "male",
+      "role": "",
+      "isactive": true,
+      "comment": ""
+    },
+    {
+      "id": "admin",
+      "name": "admin",
+      "password": "1234",
+      "repassword": "1234",
+      "email": "admin@gmail.com",
+      "gender": "male",
+      "role": "",
+      "isactive": true,
+      "comment": ""
+    },
+    {
+      "id": "abdu12",
+      "name": "abdu12",
+      "password": "12345",
+      "repassword": "12345",
+      "email": "abdu@gmail.com",
+      "gender": "male",
+      "role": "",
+      "isactive": true,
+      "comment": ""
+    }
+  ]
+}
